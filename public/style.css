@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+#container {
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+#bin {
+  margin-bottom: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  display: none;
+}
+
+#hex {
+  font-size: 1.3rem;
+  text-align: center;
+}
